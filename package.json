@@ -1,0 +1,20 @@
+{
+  "name": "sentinel-console",
+  "version": "0.1.0",
+  "description": "Sentinel Console PWA - Cognitive Core for the SGP Joker Card",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["sentinel", "pwa", "telemetry", "autonomous-agent", "joker-card"],
+  "author": "researchsociety1999-hub",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
